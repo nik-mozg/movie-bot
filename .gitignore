@@ -1,0 +1,20 @@
+# Игнорируем все файлы и директории
+*
+
+# Исключаем из игнорирования указанные файлы и директории
+!bot.py
+!history_manager.py
+!kinopoisk_api.py
+!history.json
+!ReadMe.md
+!requirements.txt
+!.gitignore
+
+# Игнорируем виртуальное окружение и другие временные файлы
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
